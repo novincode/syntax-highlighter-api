@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const API_URL = `http://localhost:${process.env.PORT || 3000}/highlight`;
+const API_URL = `http://localhost:${process.env.PORT || 4000}/highlight`;
 const API_KEY = process.env.API_KEY || 'your_api_key_here';
 
 async function runTest() {
